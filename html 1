@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation</title>
+    <link rel="stylesheet" href="hw.css">
+</head>
+<body>
+       <!--Header-->
+    <header class="header">
+        <div class="logo">
+            <h1>Blood Connect</h1>
+        </div>
+        <!--Home-->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#donate">Why Donate?</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Donate Blood, Save Lives</h2>
+            <p>Every drop counts. Join our community of donors today.</p>
+         
+        </div>
+    </section>
+
+
+   
+<br>
+<br>
+
+<!--About us section-->
+    <section id="about" class="about">
+        
+        <h1>About us</h1>
+        <p>We are a non-profit organization dedicated to bridging the gap between blood donors and recipients. Our mission is to create a sustainable blood donation system.</p>
+        <div class="about-grid">
+            <div class="card">
+                <img src="mission.jfif" height ="200px" width="250px">
+                <h3>Our Mission</h3>
+                <p>To ensure no life is lost due to lack of blood donations.</p>
+            </div>
+            <div class="card">
+                <img src="vision.png">
+                <h3>Our Vision</h3>
+                <p>To build a global network of blood donors and recipients.</p>
+            </div>
+            <div class="card">
+                <img src="1.pgn.jfif" width="250px">
+                <h3>Our Values</h3>
+                <p>Compassion, Integrity, and Commitment.</p>
+            </div>
+        </div>
+    </section>
+<br>
+<!--services-->
+
+<br>
+    <section id="services" class="services">
+        <br>
+        <h2 >Our Services</h2>
+        <br>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Donor Registration</h3>
+                <p>Sign up to become a regular blood donor.</p>
+            </div>
+            <div class="service-card">
+                <h3>Blood Bank Locator</h3>
+                <p>Find the nearest blood banks in your area.</p>
+            </div>
+            <div class="service-card">
+                <h3>Emergency Requests</h3>
+                <p>Submit a request for urgent blood requirements.</p>
+            </div>
+        </div>
+        <br><br>
+      <!-- Donor Registration Section -->
+<section id="donor-registration">
+    <h2>Donor Registration</h2>
+    <form id="donor-form">
+        <!-- Input for Full Name -->
+        <label for="donor-name">Full Name:</label>
+        <input type="text" id="donor-name" name="donor-name" placeholder="Enter your full name" required>
+
+        <!-- Input for Blood Group -->
+        <label for="donor-blood-group">Blood Group:</label>
+        <select id="donor-blood-group" name="donor-blood-group" required>
+            <option value="">Select Blood Group</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+        </select>
+
+        <!-- Input for Contact Number -->
+        <label for="donor-contact">Contact Number:</label>
+        <input type="tel" id="donor-contact" name="donor-contact" placeholder="Enter your contact number" required>
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+</section>
+<br><br>
+
+
+   
+<!-- Blood Request Section -->
+    <section id="blood-request">
+        <h2>Blood Request Submission</h2>
+        <form id="request-form">
+            <!-- Input for Patient Name -->
+            <label for="patient-name">Patient Name:</label>
+            <input type="text" id="patient-name" placeholder="Enter patient's name" required>
+    
+            <!-- Input for Required Blood Group -->
+            <label for="required-blood-group">Required Blood Group:</label>
+            <select id="required-blood-group" required>
+                <option value="">Select Blood Group</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+            </select>
+    
+            <!-- Input for Contact Number -->
+            <label for="request-contact">Contact Number:</label>
+            <input type="tel" id="request-contact" placeholder="Enter contact number" required>
+    
+            <!-- Submit Button -->
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+   </section>
+<br>
+<br>
+<!-- What our donors say-->
+ 
+<section id="testimonials" class="testimonials">
+     <h2>What Our Donors Say</h2>
+      <div class="testimonial-grid">
+         <div class="testimonial-card"> 
+            <p>"Donating blood was a rewarding experience. Knowing I helped someone in need feels amazing!"</p>
+             <h4>Ali Husnain</h4> 
+            </div> 
+            <div class="testimonial-card"> 
+                <p>"The process was seamless, and the staff was very professional. Highly recommend!"</p> 
+                <h4>Amina Zulfqar</h4>
+             </div> 
+             <div class="testimonial-card"> 
+                <p>"I’ve been donating blood for years, and it’s one of the most fulfilling things I do."</p> 
+    <h4>Um e Farwa</h4>
+ </div> 
+<div class="testimonial-card">
+    <p>"The Website should have a simple and quick registration process,allowing donor to easily enter their details!"</p>
+    <h4>Muhammad Hamza</h4> </div> </div>
+</section>
+<br>
+<!--donate-->
+<br> 
+    <section id="donate" class="donate">
+        <br>
+        <h1>Why Donate Blood?</h1>
+
+        <br>
+        <br>
+        <p>Blood donation is not just an act of kindness; it is a life-saving service. Here’s why you should donate:</p>
+        <ul>
+            <li>It helps save lives and improve community health.</li>
+            <li>Regular donations keep blood banks stocked and ready for emergencies.</li>
+            <li>Donors often enjoy health benefits such as reduced risk of heart diseases.</li>
+        </ul>
+    </section>
+<br>
+
+<!--Donation process-->
+<br>
+<section class="donation-process">
+    <h1>Donation Process</h1>
+    <p>Your generous contribution can make a significant impact and help save lives in need.</p>
+    <div class="process-container">
+      <div class="process-step">
+        <img src="11.jfif" alt="Eligibility Check">
+        <h2>Eligibility Check</h2>
+        <p>Ensure you meet the requirements for blood donation, including being in good health, meeting age and weight criteria, and not having certain medical conditions or engaging in high-risk behaviors.</p>
+      </div>
+      <div class="process-step">
+        <img src="1.pgn.jfif" alt="Register and Screen">
+        <h2>Register and Screen</h2>
+        <p>Sign up as a donor and go through a screening process, which includes a confidential interview to assess your health, travel history, and potential risk factors for transmitting infections.</p>
+      </div>
+      <div class="process-step">
+        <img src="download.jfif" alt="Donate Blood">
+        <h2>Donate Blood</h2>
+        <p>Undergo the blood donation process, where a healthcare professional will collect a pint of blood through a sterile needle inserted into your vein.</p>
+      </div>
+      <div class="process-step">
+        <img src="4.jfif" alt="Post-Donation Care">
+        <h2>Post-Donation Care</h2>
+        <p>After donation, a bandage will be applied to your arm. Rest and refreshments are provided to help replenish lost fluids and nutrients.</p>
+      </div>
+    </div>
+  </section>
+<br>
+
+<!--hero section(Building Bridges of Compassion: Transforming Lives and Inspiring Change wala block)-->
+<br>
+   <section class="hero-section"> <div class="overlay"> <div class="content"> 
+    <h1>Building Bridges of Compassion: Transforming Lives and Inspiring Change for 5 Years and Beyond!</h1> 
+    <p> For the past five years, we have been actively engaged in assisting individuals and communities in need. Our commitment to making a positive impact has driven us to provide essential aid, lend a helping hand, and initiate meaningful projects. Through our dedicated efforts, we strive to create lasting change and bring hope to those facing challenging circumstances. Join us on our journey as we continue to extend our support and make a difference in the lives of others. </p> <a href="#" class="btn">Read More</a> </div> </div> </section>  
+<br>
+
+
+
+
+<!--Contact section-->
+
+<br> 
+    <section id="contact" class="contact">
+        <br>
+        <h2>Contact Us</h2>
+        <br>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+<br>
+
+<!--Footer ya last section-->
+<br>
+    <footer class="footer">
+        <p>&copy; 2024 Blood Connect. All Rights Reserved.</p>
+        <p>Follow us on: 
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+<br>
+<!--Link from html to javascript-->
+    <script src="hh.js"></script>
+</body>
+</html>
